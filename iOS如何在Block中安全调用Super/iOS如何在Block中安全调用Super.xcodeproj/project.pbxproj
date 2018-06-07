@@ -1,0 +1,349 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		18171EF220C81557002CD6F7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 18171EF120C81557002CD6F7 /* AppDelegate.m */; };
+		18171EF520C81557002CD6F7 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18171EF420C81557002CD6F7 /* ViewController.m */; };
+		18171EF820C81557002CD6F7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18171EF620C81557002CD6F7 /* Main.storyboard */; };
+		18171EFA20C81559002CD6F7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18171EF920C81559002CD6F7 /* Assets.xcassets */; };
+		18171EFD20C81559002CD6F7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18171EFB20C81559002CD6F7 /* LaunchScreen.storyboard */; };
+		18171F0020C81559002CD6F7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 18171EFF20C81559002CD6F7 /* main.m */; };
+		18171F0820C815C1002CD6F7 /* SZYParentObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 18171F0720C815C1002CD6F7 /* SZYParentObject.m */; };
+		18171F0B20C815DA002CD6F7 /* SZYChildObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 18171F0A20C815DA002CD6F7 /* SZYChildObject.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		18171EED20C81556002CD6F7 /* iOS如何在Block中安全调用Super.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "iOS如何在Block中安全调用Super.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		18171EF020C81556002CD6F7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		18171EF120C81557002CD6F7 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		18171EF320C81557002CD6F7 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		18171EF420C81557002CD6F7 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		18171EF720C81557002CD6F7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		18171EF920C81559002CD6F7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		18171EFC20C81559002CD6F7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		18171EFE20C81559002CD6F7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18171EFF20C81559002CD6F7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		18171F0620C815C1002CD6F7 /* SZYParentObject.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SZYParentObject.h; sourceTree = "<group>"; };
+		18171F0720C815C1002CD6F7 /* SZYParentObject.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SZYParentObject.m; sourceTree = "<group>"; };
+		18171F0920C815DA002CD6F7 /* SZYChildObject.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SZYChildObject.h; sourceTree = "<group>"; };
+		18171F0A20C815DA002CD6F7 /* SZYChildObject.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SZYChildObject.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		18171EEA20C81556002CD6F7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		18171EE420C81556002CD6F7 = {
+			isa = PBXGroup;
+			children = (
+				18171EEF20C81556002CD6F7 /* iOS如何在Block中安全调用Super */,
+				18171EEE20C81556002CD6F7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		18171EEE20C81556002CD6F7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				18171EED20C81556002CD6F7 /* iOS如何在Block中安全调用Super.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		18171EEF20C81556002CD6F7 /* iOS如何在Block中安全调用Super */ = {
+			isa = PBXGroup;
+			children = (
+				18171EF020C81556002CD6F7 /* AppDelegate.h */,
+				18171EF120C81557002CD6F7 /* AppDelegate.m */,
+				18171EF320C81557002CD6F7 /* ViewController.h */,
+				18171EF420C81557002CD6F7 /* ViewController.m */,
+				18171EF620C81557002CD6F7 /* Main.storyboard */,
+				18171EF920C81559002CD6F7 /* Assets.xcassets */,
+				18171EFB20C81559002CD6F7 /* LaunchScreen.storyboard */,
+				18171EFE20C81559002CD6F7 /* Info.plist */,
+				18171EFF20C81559002CD6F7 /* main.m */,
+				18171F0620C815C1002CD6F7 /* SZYParentObject.h */,
+				18171F0720C815C1002CD6F7 /* SZYParentObject.m */,
+				18171F0920C815DA002CD6F7 /* SZYChildObject.h */,
+				18171F0A20C815DA002CD6F7 /* SZYChildObject.m */,
+			);
+			path = "iOS如何在Block中安全调用Super";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		18171EEC20C81556002CD6F7 /* iOS如何在Block中安全调用Super */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18171F0320C81559002CD6F7 /* Build configuration list for PBXNativeTarget "iOS如何在Block中安全调用Super" */;
+			buildPhases = (
+				18171EE920C81556002CD6F7 /* Sources */,
+				18171EEA20C81556002CD6F7 /* Frameworks */,
+				18171EEB20C81556002CD6F7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "iOS如何在Block中安全调用Super";
+			productName = "iOS如何在Block中安全调用Super";
+			productReference = 18171EED20C81556002CD6F7 /* iOS如何在Block中安全调用Super.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		18171EE520C81556002CD6F7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0940;
+				TargetAttributes = {
+					18171EEC20C81556002CD6F7 = {
+						CreatedOnToolsVersion = 9.4;
+					};
+				};
+			};
+			buildConfigurationList = 18171EE820C81556002CD6F7 /* Build configuration list for PBXProject "iOS如何在Block中安全调用Super" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 18171EE420C81556002CD6F7;
+			productRefGroup = 18171EEE20C81556002CD6F7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				18171EEC20C81556002CD6F7 /* iOS如何在Block中安全调用Super */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		18171EEB20C81556002CD6F7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18171EFD20C81559002CD6F7 /* LaunchScreen.storyboard in Resources */,
+				18171EFA20C81559002CD6F7 /* Assets.xcassets in Resources */,
+				18171EF820C81557002CD6F7 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		18171EE920C81556002CD6F7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18171EF520C81557002CD6F7 /* ViewController.m in Sources */,
+				18171F0B20C815DA002CD6F7 /* SZYChildObject.m in Sources */,
+				18171F0020C81559002CD6F7 /* main.m in Sources */,
+				18171EF220C81557002CD6F7 /* AppDelegate.m in Sources */,
+				18171F0820C815C1002CD6F7 /* SZYParentObject.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		18171EF620C81557002CD6F7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				18171EF720C81557002CD6F7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		18171EFB20C81559002CD6F7 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				18171EFC20C81559002CD6F7 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		18171F0120C81559002CD6F7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		18171F0220C81559002CD6F7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		18171F0420C81559002CD6F7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "iOS如何在Block中安全调用Super/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "szy.independent.iOS---Block-----Super";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		18171F0520C81559002CD6F7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "iOS如何在Block中安全调用Super/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "szy.independent.iOS---Block-----Super";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		18171EE820C81556002CD6F7 /* Build configuration list for PBXProject "iOS如何在Block中安全调用Super" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18171F0120C81559002CD6F7 /* Debug */,
+				18171F0220C81559002CD6F7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18171F0320C81559002CD6F7 /* Build configuration list for PBXNativeTarget "iOS如何在Block中安全调用Super" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18171F0420C81559002CD6F7 /* Debug */,
+				18171F0520C81559002CD6F7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 18171EE520C81556002CD6F7 /* Project object */;
+}
